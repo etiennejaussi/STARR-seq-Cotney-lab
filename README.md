@@ -21,3 +21,6 @@ The data comes from an experiment performed in Cotney lab 3 years ago. I have re
 
 ## Step 06 :
 * Filtering BAM files to remove unmapped reads, PCR or optical duplicate reads and low quality reads. For this, I used the script named : `script_samtools_filtering_bam`
+
+## Step 07 :
+* Generating bigwig files. For this, I used the script named : `script_bamcoverage_generate_bigwig`
