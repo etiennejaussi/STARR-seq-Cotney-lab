@@ -28,4 +28,7 @@ To remove Mitochondrial chromosomes, I used the following commande line :
 * Filtering BAM files to remove unmapped reads, PCR or optical duplicate reads and low quality reads. For this, I used the script named : `script_samtools_filtering_bam`
 
 ## Step 07 :
+* Peak calling. For this, I used the script named : `script_macs2_peak_calling`
+
+## Step 08 :
 * Generating bigwig files. For this, I used the script named : `script_bamcoverage_generate_bigwig`
