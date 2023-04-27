@@ -6,6 +6,8 @@ Path to the GTF annotation file : `https://ftp.ensembl.org/pub/grch37/current/gt
 To decompress the GTF file, I used the following commande line : `gunzip Homo_sapiens.GRCh37.87.chr.gtf.gz`  
 To remove Mitochondrial chromosomes, I used the following commande line : `cat Homo_sapiens.GRCh37.87.chr.gtf | awk '{print "chr"$0}' | grep -v chrG | grep -v chrH | grep -v chrMT > Homo_sapiens.GRCh37.87.nuclear_chr.gtf`
 
+reference genome : https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/hg19.fa.gz
+
 # Description of the analysis steps
 
 ## Step01 : Organization of fastq files
