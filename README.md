@@ -8,6 +8,8 @@ To remove Mitochondrial chromosomes, I used the following commande line : `cat H
 
 reference genome : https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/hg19.fa.gz
 
+chrommosome size : https://gist.github.com/nimezhu/d97a302816ea751e25571773d075b35e
+
 # Description of the analysis steps
 
 ## Step01 : Organization of fastq files
