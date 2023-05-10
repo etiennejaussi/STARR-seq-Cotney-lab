@@ -7,7 +7,7 @@
 library(tidyverse)
 
 # load data
-load("output/output2_differential_expression/all_cov_and_deseq_results.csv")
+load("output/output2_differential_expression/all_cov_and_deseq_results.RData")
 
 # count the nomber of peaks with an adjusted pvalue lower than 0.05
 sum(cov_deseq$padj < 0.05, na.rm=TRUE)
