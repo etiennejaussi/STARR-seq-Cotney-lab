@@ -65,4 +65,5 @@ cov_deseq <- peak_coverage %>% full_join(res, by = "peak_rank")
 print(cov_deseq, width = Inf)
 
 # save the result table
+save(cov_deseq, file = "output/output2_differential_expression/all_cov_and_deseq_results.RData")
 write.csv(cov_deseq, file = "output/output2_differential_expression/all_cov_and_deseq_results.csv")
