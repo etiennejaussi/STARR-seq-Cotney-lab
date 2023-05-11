@@ -3,6 +3,7 @@
 * The data comes from an experiment performed in Cotney lab 4 years ago. I have retrieved the fastq files in the following directory : `/archive/labs/Cotney/DATA/STARR-Seq/ChIPSTARRseq_test/test_run_3/TYAN01*`.
 * Link to the hg19 reference genome : https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips. I downloaded the `hg19.fa.gz` file
 * Link to the list of the chrommosome size : https://gist.github.com/nimezhu/d97a302816ea751e25571773d075b35e
+* Link to Chip-seq data that I used for the step10 : https://cotneylab.cam.uchc.edu/~jcotney/CRANIOFACIAL_HUB/hg19/
 
 # Description of the analysis steps
 
