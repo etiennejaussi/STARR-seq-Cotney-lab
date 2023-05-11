@@ -7,12 +7,12 @@
 library(tidyverse)
 
 # load raw data
-Isoplasmid1_cov <- read.table("C:/Users/etien/Desktop/Stage_Uconn_M1/experiments/CHIP_STARR_seq/analysis_steps/step08_analyzing_coverage/data/Isoplasmid1_cov.txt", header=FALSE)
-Isoplasmid2_cov <- read.table("C:/Users/etien/Desktop/Stage_Uconn_M1/experiments/CHIP_STARR_seq/analysis_steps/step08_analyzing_coverage/data/Isoplasmid2_cov.txt", header=FALSE)
-Isoplasmid3_cov <- read.table("C:/Users/etien/Desktop/Stage_Uconn_M1/experiments/CHIP_STARR_seq/analysis_steps/step08_analyzing_coverage/data/Isoplasmid3_cov.txt", header=FALSE)
-mRNA1_cov <- read.table("C:/Users/etien/Desktop/Stage_Uconn_M1/experiments/CHIP_STARR_seq/analysis_steps/step08_analyzing_coverage/data/mRNA1_cov.txt", header=FALSE)
-mRNA2_cov <- read.table("C:/Users/etien/Desktop/Stage_Uconn_M1/experiments/CHIP_STARR_seq/analysis_steps/step08_analyzing_coverage/data/mRNA2_cov.txt", header=FALSE)
-mRNA3_cov <- read.table("C:/Users/etien/Desktop/Stage_Uconn_M1/experiments/CHIP_STARR_seq/analysis_steps/step08_analyzing_coverage/data/mRNA3_cov.txt", header=FALSE)
+Isoplasmid1_cov <- read.table("C:/Users/etien/Desktop/Stage_Uconn_M1/experiments/CHIP_STARR_seq/analysis_steps/step09_analyzing_coverage/data/Isoplasmid1_cov.txt", header=FALSE)
+Isoplasmid2_cov <- read.table("C:/Users/etien/Desktop/Stage_Uconn_M1/experiments/CHIP_STARR_seq/analysis_steps/step09_analyzing_coverage/data/Isoplasmid2_cov.txt", header=FALSE)
+Isoplasmid3_cov <- read.table("C:/Users/etien/Desktop/Stage_Uconn_M1/experiments/CHIP_STARR_seq/analysis_steps/step09_analyzing_coverage/data/Isoplasmid3_cov.txt", header=FALSE)
+mRNA1_cov <- read.table("C:/Users/etien/Desktop/Stage_Uconn_M1/experiments/CHIP_STARR_seq/analysis_steps/step09_analyzing_coverage/data/mRNA1_cov.txt", header=FALSE)
+mRNA2_cov <- read.table("C:/Users/etien/Desktop/Stage_Uconn_M1/experiments/CHIP_STARR_seq/analysis_steps/step09_analyzing_coverage/data/mRNA2_cov.txt", header=FALSE)
+mRNA3_cov <- read.table("C:/Users/etien/Desktop/Stage_Uconn_M1/experiments/CHIP_STARR_seq/analysis_steps/step09_analyzing_coverage/data/mRNA3_cov.txt", header=FALSE)
 
 # from dataframe to tibble
 Isoplasmid1_cov <- as_tibble(Isoplasmid1_cov)
